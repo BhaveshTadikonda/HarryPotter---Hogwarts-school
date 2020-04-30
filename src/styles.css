@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+/* @import "~bootstrap/dist/css/bootstrap.css";
+@import "~font-awesome/css/font-awesome.min.css"; */
+
+
+.border{
+    border: 1px solid silver;
+    border-radius: 20px;
+    margin: 1%;
+}

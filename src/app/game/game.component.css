@@ -1,0 +1,29 @@
+.panel.panel-default{
+    margin-top: 5%;
+}
+.btn.btn-primary.reset{
+    margin-left: 3%;
+}
+.container h1,h4{
+    margin-bottom: 0%;
+}
+.img-responsive{
+  width: 30%;
+  height: auto;
+}
+.container{
+    width: 40%;
+    margin: 0%;
+    padding: 0%;
+    border: 1px solid black;
+    float: left;
+
+}
+.house{
+    border: 1px solid black;
+    float: left;
+
+}
+.col-sm-4{
+    padding: 1.5%;
+}

@@ -1,0 +1,39 @@
+p {
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.text-block {
+    bottom: 20px;
+    right: 20px;
+    /* background-color: black; */
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .houses{
+      width: 35%;
+      height: auto;
+  }
+thead {
+    color: #337AB7;
+}
+
+.houses1{
+    width: auto;
+    height: 25%;
+}
+
+.houses2{
+    width: auto;
+    height: 30%;
+}
+
+.houses3{
+    width: auto;
+    height: 50%;
+}
+
+.border{
+    border: 1px solid silver;
+}

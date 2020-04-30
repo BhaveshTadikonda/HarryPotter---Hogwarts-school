@@ -1,0 +1,17 @@
+button[type="submit"]{
+    margin-top: 2%;
+}
+
+.btn.btn-default.dropdown-toggle{
+    width: 15%;
+    margin-top: 2%;
+}
+
+.caret{
+    margin-left: 5%;
+}
+
+.container{
+    padding: 2%;
+    margin: 1% auto;
+}

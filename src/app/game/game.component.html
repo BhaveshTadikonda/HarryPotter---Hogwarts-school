@@ -1,0 +1,26 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-4 border">
+            <h1>Sorting hat</h1>
+            <h4>Click the button below to sort your house.</h4>
+            <img src='assets/sortinghat.png' alt="Harry" class="img-responsive">
+            <!-- <img src='assets/sorting-hat.png' alt="Harry" style="width:100%;"> -->
+            <button class="btn btn-primary" (click)="sort()">
+                Sort me a house
+            </button>
+            <button class="btn btn-primary reset" (click)="reset()">Reset</button>
+        </div>
+        <div class="col-sm-4 " >
+            <div class="panel panel-default house" *ngIf="house">
+                <div class="panel-heading">
+                    <h3 class="panel-title">You are sorted under</h3>
+                </div>
+                <div class="panel-body">
+                    {{house}}
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 "></div>
+    </div>
+
+</div>

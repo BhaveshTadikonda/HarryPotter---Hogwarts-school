@@ -1,0 +1,33 @@
+<!-- <script>
+  $(".navbar li a").on("click", function(){
+   $(".navbar").find(".active").removeClass("active");
+   $(this).parent().addClass("active");
+});
+</script> -->
+
+<script>
+  function highLight() {
+    console.log("highlighted");
+  }
+</script>
+
+<head>
+</head>
+<div class="jumbotron">
+    Welcome to School of Hogwarts 
+</div>
+<div class="topnav" id="myTopnav">
+  <div class="topnav" [ngClass]="(display ? 'topnav responsive':'topnav')" id="myTopnav">
+    <a routerLink="/home">Home</a>
+    <a routerLink="/modules">Modules</a>
+    <a routerLink="/sources">Sources</a>
+    <a routerLink="/game">Game</a>
+    <a routerLink="/form">Characters</a>
+    <a href="javascript:void(0);" class="icon" (click)="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+<!--which is used to load the different components dynamically based on the activated component or current route state. -->
+<router-outlet></router-outlet>
+
